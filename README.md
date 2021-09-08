@@ -2,6 +2,7 @@
  The wheat/rice and chessboard problem
  https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/solutions/javascript
  
+ `
  function squaresNeeded(grains){
     let arr = getArrRice(64)
     return  getNumField( grains, arr )
@@ -36,3 +37,4 @@ function getNumField (num, arr){
 }
 
 squaresNeeded(0)
+`
